@@ -1,0 +1,14 @@
+import sys
+print('Python: {}'.format(sys.version))
+import scipy
+print('Scipy {}'.format(scipy._version_))
+import numpy
+print('Numpy: {}'.format(numpy._version_))
+import matplotlib
+print('Matplotlib: {}'.format(matplotlib._version_))
+import pandas
+print('Pandas: {}'.format(pandas._version_))
+import sklearn
+print('Sklearn: {}'.format(sklearn._version_))
+
+
